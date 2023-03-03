@@ -249,14 +249,14 @@ export default function Header() {
               <NavLink className="color-header" to={"/admin"}>
                 <SupervisorAccountRoundedIcon></SupervisorAccountRoundedIcon>
               </NavLink>
-              <NavLink className="color-header" to={"/admin"}>
+              <NavLink className="color-header" >
                 ADMINISTRADOR
               </NavLink>
 
-              <NavLink className="color-header" to={"/profile"}>
+              <NavLink className="color-header" >
                 <AccountCircleIcon />{" "}
               </NavLink>
-              <NavLink className="color-header" to={"/profile"}>
+              <NavLink className="color-header" >
                 {sesionLocal[0].firstname[0].toUpperCase() +
                   sesionLocal[0].firstname.slice(1)}
               </NavLink>
@@ -373,7 +373,7 @@ export default function Header() {
                   </DialogActions>
                 </DialogContent>
               </Dialog>
-              <NavLink className="color-header-res" to={"/createProduct"}>
+              <NavLink className="color-header-res" to={"/register2"}>
                 <AddBoxIcon sx={{ mr: 0, ml: 2 }}></AddBoxIcon>
               </NavLink>
               <NavLink className="color-header-res2" to={"/register2"}>
@@ -471,16 +471,16 @@ export default function Header() {
               >
                 <MenuItem></MenuItem>
                 <MenuItem>
-                  <NavLink className="color-header" to={"/admin"}>
+                  <NavLink className="color-header" >
                     <SupervisorAccountRoundedIcon></SupervisorAccountRoundedIcon>
                   </NavLink>
-                  <NavLink className="color-header" to={"/admin"}>
+                  <NavLink className="color-header" >
                     OPERARIO
                   </NavLink>
-                  <NavLink className="color-header-res" to={"/createProduct"}>
+                  <NavLink className="color-header-res" >
                     <AddBoxIcon></AddBoxIcon>
                   </NavLink>
-                  <NavLink className="color-header-res2" to={"/createProduct"}>
+                  <NavLink className="color-header-res2" >
                     CREAR MARCADOR
                   </NavLink>
                 </MenuItem>
@@ -517,14 +517,14 @@ export default function Header() {
               sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
               className="color-header"
             >
-              <NavLink className="color-header" to={"/admin"}>
+              <NavLink className="color-header">
                 <SupervisorAccountRoundedIcon></SupervisorAccountRoundedIcon>
               </NavLink>
               <NavLink className="color-header">OPERARIO</NavLink>
-              <NavLink className="color-header2" to={"/profile"}>
+              <NavLink className="color-header2">
                 <AccountCircleIcon sx={{ mr: 1 }} />
               </NavLink>
-              <NavLink className="color-header" to={"/profile"}>
+              <NavLink className="color-header">
                 {sesionLocal[0].firstname[0].toUpperCase() +
                   sesionLocal[0].firstname.slice(1)}
               </NavLink>
