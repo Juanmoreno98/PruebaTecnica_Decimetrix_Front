@@ -58,7 +58,7 @@ export default function Home() {
   // const mapRef = useRef()
   // const accessToken =
   //   "pk.eyJ1IjoianVhbm1vcmVubzk4IiwiYSI6ImNsZXI4Mmd3YzA5bjYzcXIxNzVwbWl3aGYifQ.Q8ZT5MXI1SUZBHPL6RU4LQ";
-  mapboxgl.accessToken = 'pk.eyJ1IjoianVhbm1vcmVubzk4IiwiYSI6ImNsZXI4Mmd3YzA5bjYzcXIxNzVwbWl3aGYifQ.Q8ZT5MXI1SUZBHPL6RU4LQ';
+  mapboxgl.accessToken = 'pk.eyJ1IjoianVhbm1vcmVubzk4IiwiYSI6ImNsZXMzbHdwejB5bjczb3B2YmtoOWM3MW4ifQ.mSeFNGWJTO8NebUhvR6Riw';
 
   
   
